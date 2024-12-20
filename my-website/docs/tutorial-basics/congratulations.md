@@ -3,6 +3,10 @@ sidebar_position: 6
 ---
 
 # Congratulations!
+import CodeBlock from '@theme/CodeBlock';
+import MyComponentSource from '!!raw-loader!./_category_.json';
+
+<CodeBlock language="json">{MyComponentSource}</CodeBlock>
 
 You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.
 
